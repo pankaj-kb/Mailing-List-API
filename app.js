@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 const { urlencoded } = require("body-parser");
 const bodyParser = require("body-parser");
 const express = require("express");
@@ -68,5 +70,5 @@ app.listen(process.env.PORT || 3000, function(){
     console.log("App is running on port 3000");
 });
 
-// b9c073e3afa9dbc2af2e221cea3190e2-us9
-// audiance id = ce16ec0d8e
+// 
+// audiance id = 
