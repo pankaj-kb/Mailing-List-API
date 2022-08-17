@@ -43,7 +43,7 @@ app.post("/", function(req,res){
 
     const options = {
         method: "POST",
-        auth: "pankajkb:b9c073e3afa9dbc2af2e221cea3190e2-us9"
+        auth: "pankajkb:process.env.API_KEY"
     }
 
     const request = https.request(url, options, function(response){
@@ -69,6 +69,3 @@ app.post("/failure",function(req, res){
 app.listen(process.env.PORT || 3000, function(){
     console.log("App is running on port 3000");
 });
-
-// 
-// audiance id = 
